@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity
 
             @Override
             public void onFailure(Throwable t) {
-
+                Log.d("hulalala failed", "failed " + t.getMessage());
             }
         });
     }
